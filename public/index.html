@@ -1,0 +1,18 @@
+<!-- Construct an index.html. At minimum, it should have an <html> tag, a <head>, a <body> and and a single <script> tag to serve up your bundled javascript. It should also have at least one <div> with an id that you can use ReactDOM.render to render your React app into. Also make sure that you only load your bundled javascript AFTER the DOM loads! -->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Appy the App!</title>
+    <script src="/bundle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- this allows app to scale to mobile browsers-->
+
+    <body>
+      <div id="app"></div>
+      <!-- will grab app id off DOM using .getElementById in index file (root) -->
+    </body>
+  </head>
+  <meta charset="UTF-8" />
+</html>
+
